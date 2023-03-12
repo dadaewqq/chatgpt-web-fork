@@ -16,7 +16,7 @@ export default {
     unauthorizedTips: '未经授权，请先进行验证。',
   },
   chat: {
-    placeholder: '来说点什么...（Shift + Enter = 换行）',
+    placeholder: '来说点什么吧...（Shift + Enter = 换行）',
     placeholderMobile: '来说点什么...',
     copy: '复制',
     copied: '复制成功',
@@ -27,6 +27,9 @@ export default {
     exportImageConfirm: '是否将会话保存为图片?',
     exportSuccess: '保存成功',
     exportFailed: '保存失败',
+    usingContext: '上下文模式',
+    turnOnContext: '当前模式下, 发送消息会携带之前的聊天记录',
+    turnOffContext: '当前模式下, 发送消息不会携带之前的聊天记录',
     deleteMessage: '删除消息',
     deleteMessageConfirm: '是否删除此消息?',
     deleteHistoryConfirm: '确定删除此记录?',
@@ -47,6 +50,7 @@ export default {
     reverseProxy: '反向代理',
     timeout: '超时',
     socks: 'Socks',
+    httpsProxy: 'HTTPS Proxy',
   },
 
 }
